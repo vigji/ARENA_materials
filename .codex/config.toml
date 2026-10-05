@@ -1,0 +1,4 @@
+# Run commands within this trusted project without interactive approval prompts.
+# Operations outside the workspace remain blocked by the sandbox.
+approval_policy = "never"
+sandbox_mode = "workspace-write"
